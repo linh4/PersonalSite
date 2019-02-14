@@ -24,7 +24,6 @@ const About = () => (
           </div>
         </div>
       </div>
-      <div className="about-middl"></div>
       <div className="about-middle-next">
         <div className="ab-img-left">
           <img src={ca} alt="yosemite in CA"/>
@@ -60,11 +59,12 @@ const About = () => (
           <h3>Just a bit more...</h3>
           <p>I am very social and I love listening to other people’s experiences, as well as sharing my own.  My favorite things to talk about are food, restaurants, traveling, and the latest in tech!</p>
           <h4>My favorites quotes are:</h4>
-          <blockquote>"If it ain't broke, don't fix it."</blockquote>
-          <blockquote>"It’s not a bug, it’s a feature."</blockquote>
-          <blockquote>"Make it work first, make it pretty later."</blockquote>
-          <blockquote>"Programming is like sex. One mistake and you have to support it for the rest of your life."</blockquote>
-          <blockquote>"A good programmer is someone who always looks both ways before crossing a one-way street."</blockquote>
+          <blockquote>"It’s not a bug, it’s a feature." (Anonymous)</blockquote>
+          <blockquote>"Make it work first, make it pretty later." (Anonymous)</blockquote>
+          <blockquote>"Be yourself; everyone else is already taken." (Oscar Wilde)</blockquote>
+          <blockquote>"They did not know it was impossible, so they did it!" (Mark Twain)</blockquote>
+          <blockquote>"In order to understand recursion, one must first understand recursion." (Anonymous)</blockquote>
+          <blockquote>"A good programmer is someone who always looks both ways before crossing a one-way street." (Doug Linder)</blockquote>
         </div>
       </div>
     </Layout>

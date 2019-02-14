@@ -40,11 +40,6 @@
   display: block;
   width: 500px;
 }
-
-.about-middle {
-  background: #222032;
-  height: 750px;
-}
 .about-middle-next {
   background: #222032;
   height: 300px;
@@ -137,9 +132,6 @@ blockquote {
   .about-top {
     padding-top: 150px;
     height: 600px;
-  }
-  .about-middle {
-    height: 500px;
   }
   .ab-header {
     width: auto;
@@ -253,6 +245,7 @@ blockquote {
   blockquote {
     line-height: 1.4;
     margin: 5px;
+    font-size: 1em;
   }
 }
 
