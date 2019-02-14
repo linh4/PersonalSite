@@ -1,0 +1,269 @@
+.about-top {
+  background: #222032;
+  height: 1000px;
+  width: 100%;
+  margin-top: -120px;
+  padding-top: 200px;
+}
+.ab-header {
+  width: 1200px;
+  margin: 0px auto;
+  position: relative;
+}
+.ab-header h2 {
+  float: left;
+  padding: 0px 8px;
+  width: 66.67%;
+  font-size: 46px;
+  letter-spacing: -0.8px;
+}
+.ab-header strong {
+  color: #fff;
+}
+.ab-img {
+  position: absolute;
+  padding: 0px;
+  right: 0;
+  top: -50px;
+}
+.vn-map {
+  width: 250px;
+  display: block;
+  float: right;
+  right: 40px;
+  opacity: 0.9;
+}
+.ny-map {
+  clear: both;
+  text-align: right;
+  opacity: 0.7;
+  display: block;
+  width: 500px;
+}
+
+.about-middle {
+  background: #222032;
+  height: 750px;
+}
+.about-middle-next {
+  background: #222032;
+  height: 300px;
+  position: relative;
+}
+.ab-img-left {
+  width: calc(100% - (100vw - 1200px) / 2 - 462px);
+  margin-top: -1px;
+}
+.ab-img-left img {
+  width: 700px;
+  display: block;
+}
+.ab-img-right {
+  position: absolute;
+  right: 50px;
+  width: 600px;
+  height: 390px;
+  top: calc(50% - 30px);
+}
+.ab-img-right div {
+  display: block;
+  padding: 80px 80px;
+  background: #ec854c;
+  color: rgba(255, 255, 255, 0.9);
+}
+.about-bottom {
+  padding-top: 300px;
+  padding-left: 360px;
+  position: relative;
+  width: 70%;
+  text-align: left;
+  margin: 0 auto;
+}
+.about-bottom p {
+  font-size: 1.4em;
+  font-family: 'Quattrocento', serif;
+  line-height: 1.5em;
+}
+.about-bottom h3 {
+  margin-top: 50px;
+  font-size: 2em;
+  color: #000;
+  letter-spacing: 0.3em;
+}
+.about-bottom img {
+  width: 100%;
+  display: block;
+}
+.about-bottom-last {
+  width: 1200px;
+  margin: 0px auto;
+  position: relative;
+  padding-top: 50px;
+}
+.about-bottom-last h1 {
+  font-size: 4em;
+  opacity: 0.3;
+  width: 20%;
+}
+.img-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  font-family: 'Quattrocento', serif;
+}
+.img-list img {
+  width: 380px;
+}
+.img-list div:nth-child(odd) {
+  margin-top: 40px;
+}
+.img-list p {
+  padding-right: 20px;
+}
+.end {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.end h4 {
+  font-size: 1.4em;
+}
+blockquote {
+  line-height: 2;
+  font-family: 'Quattrocento', serif;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-top {
+    padding-top: 150px;
+    height: 600px;
+  }
+  .about-middle {
+    height: 500px;
+  }
+  .ab-header {
+    width: auto;
+    padding: 0px 32px;
+  }
+  .ab-header h2 {
+    width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .ab-img {
+    position: relative;
+    top: 200px;
+  }
+  .ab-img-right {
+    position: static;
+    width: 700px;
+  }
+  .ab-img-right div {
+    color: #8c8c8c;
+    background: transparent;
+    padding: 10px 30px;
+  }
+  .vn-map {
+    display: none;
+  }
+  .ny-map {
+    position: absolute !important;
+    right: 0;
+    margin-top: 20px;
+    width: 400px;
+  }
+  .ab-img-left img {
+    width: 100%;
+  }
+  .about-bottom {
+    padding-left: 0;
+    width: 90%;
+  }
+  .about-bottom-last {
+    width: 90%;
+  }
+  .about-bottom-last h1 {
+    width: auto;
+  }
+  .img-list {
+    grid-template-columns: auto;
+    text-align: center;
+  }
+  .img-list img {
+    width: 600px;
+  }
+  .img-list p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 447px) {
+  .about-top {
+    height: 700px;
+  }
+  .ab-header h2 {
+    font-size: 1.1em;
+  }
+  .about-middle {
+    height: 500px;
+  }
+  .ny-map {
+    width: 300px;
+    top: 140px;
+    left: 0;
+  }
+  .ab-img-right {
+    width: 90%;
+  }
+  .about-middle-next {
+    height: 200px;
+  }
+  .ab-img-left img {
+    width: 350px;
+  }
+  .ab-img-right div {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+  .about-bottom {
+    padding-top: 170px;
+  }
+  .about-bottom h3 {
+    letter-spacing: 0.2em;
+  }
+  .about-bottom p {
+    font-size: 1.1em;
+  }
+  .img-list img {
+    width: 300px;
+  }
+  .img-list p {
+    font-size: 1em;
+    width: 90%;
+  }
+  .about-bottom-last h1 {
+    font-size: 2em;
+  }
+  .end {
+    padding-top: 40px;
+    width: 100%;
+  }
+  blockquote {
+    line-height: 1.4;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .ny-map {
+    width: 250px;
+  }
+  .ab-img-left img {
+    width: 300px;
+  }
+  .img-list img {
+    width: 280px;
+  }
+}

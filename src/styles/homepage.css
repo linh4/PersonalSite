@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700|Major+Mono+Display|Quattrocento');
+@import './projects.css';
+@import './about.css';
+@import './intro.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #8c8c8c;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+main {
+  padding-top: 60px;
+  margin-right: -1px;
+}
+
+a {
+  text-decoration: none;
+  transition: ease 0.3s;
+}
+img {
+  position: relative !important;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------- NAVBAR --------------- */
+header {
+  height: 40px;
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+}
+.brand {
+  float: left;
+  margin: 15px 0 0 35px;
+}
+.brand a {
+  color: #e55100;
+  font-size: 1.4em;
+  font-family: 'Major Mono Display', monospace;
+}
+.brand a:hover {
+  color: #8c8c8c;
+}
+nav ul {
+  display: inline-block;
+  float: right;
+  margin: 0;
+  padding-top: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 0.9em;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  letter-spacing: 0.5em;
+  padding: 10px 20px;
+  color: inherit;
+}
+nav ul li a:hover {
+  color: #e55100;
+}
+
+/* ----------FOOTER ------------ */
+footer {
+  margin-top: 100px;
+  margin-right: -1px;
+  display: block;
+  background: #222032;
+  color: rgba(255, 255, 255, 0.6);
+  position: relative;
+}
+.bottom {
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+}
+.bottom hr {
+  margin-top: 70px;
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.let-talk {
+  width: 100%;
+  font-size: 2.6em;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-align: left;
+  padding: 0 130px;
+}
+.text-top {
+  position: relative;
+  height: 300px;
+}
+.text-top img {
+  position: absolute !important;
+  left: -250px;
+}
+.text-middle strong {
+  color: #fff;
+}
+.text-middle {
+  width: 60%;
+}
+.contact {
+  margin-top: 40px;
+  color: #000;
+  background: #fff;
+  padding: 5px;
+  display: inline-block;
+  font-size: 0.4em;
+  min-width: 10em;
+  text-align: center;
+}
+.contact:hover {
+  background-color: #e55100;
+  color: #fff;
+}
+.links {
+  display: block;
+  width: 1200px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 70px 15px;
+  text-transform: uppercase;
+}
+.social-media {
+  float: left;
+}
+.social-media > div {
+  display: inline-block;
+  margin-right: 25px;
+}
+.social-media div a,
+.built {
+  color: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+.built {
+  float: right;
+}
+.social-media div a:hover {
+  color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .let-talk {
+    width: auto;
+    padding: 0px 32px;
+    text-align: center;
+  }
+  .text-top img {
+    left: 0;
+    position: static !important;
+  }
+  .text-middle {
+    width: calc(100vw - 90px);
+    font-size: 0.8em;
+  }
+  .links {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .social-media {
+    float: none;
+    text-align: center;
+  }
+  .social-media > div {
+    display: block;
+    margin-right: 0;
+    line-height: 2em;
+  }
+  .built {
+    float: none;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  header {
+    font-size: 0.6em;
+  }
+  nav ul li a {
+    letter-spacing: 0.1em;
+    padding: 0;
+  }
+  main {
+    padding-top: 0;
+  }
+  .text-middle {
+    font-size: 0.5em;
+    line-height: 1.6em;
+    width: calc(100vw - 60px);
+  }
+  .text-top {
+    height: 150px;
+  }
+  .text-top img {
+    width: 250px;
+  }
+  .contact {
+    font-size: 0.35em;
+    padding: 3px;
+  }
+}
