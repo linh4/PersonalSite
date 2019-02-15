@@ -1,7 +1,8 @@
 [
   {
     "title": "Around You",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "description": "News app uses newsapi to retrieve the lastest news. Users can pick a category or source to read and browse the news. Around You is implemented via Mobile Responsive Design.",
+    "tech": "React, Redux, Pure CSS, NewsAPI",
     "time": "February 2019",
     "left": "https://around-you1.herokuapp.com/",
     "right": "https://github.com/linh4/around-you",
@@ -10,7 +11,8 @@
   },
   {
     "title": "Yo Fun",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "description": "A video streaming app with a live chat function.",
+    "tech": "React, Redux, WebRTC, NodeJS",
     "time": "January 2019",
     "left": "https://youtu.be/L3JX8N0bkkE",
     "right": "https://github.com/linh4/yo-fun",
@@ -19,7 +21,8 @@
   },
   {
     "title": "Split B",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "description": "An app that splits the bill between friends.  The app includes tax and tip and is calculated based on who shared what. Applied PWA for Mobile Users.",
+    "tech": "React, Redux, Ruby on Rails, Pure CSS, Google OCR API",
     "time": "November 2018",
     "left": "https://split-b.herokuapp.com/",
     "right": "https://github.com/linh4/split-b-front-end",
@@ -28,7 +31,8 @@
   },
   {
     "title": "Go Stamp!",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "description": "Collect digital stamps every time you visit stores to redeem great deals! No need to carry tons of stamp cards in your wallet.",
+    "tech": "React, Ruby on Rails, Semantic UI, Pure CSS",
     "time": "October 2018",
     "left": "https://go-stamp-card-app.herokuapp.com/",
     "right": "https://github.com/linh4/go-stamp-front-end",
@@ -37,7 +41,8 @@
   },
   {
     "title": "Tic Tap Tone",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "description": "A fun game that tests and enhances auditory and visual reaction times while challenging memory skills.",
+    "tech": "Vanilla JavaScript, Ruby on Rails, Pure CSS",
     "time": "September 2018",
     "left": "https://tic-tap-tone.herokuapp.com/",
     "right": "https://github.com/linh4/tic-tap-tone-front-end",

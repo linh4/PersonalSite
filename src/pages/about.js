@@ -39,7 +39,7 @@ const About = () => (
         <img src={pic} alt="pic of me"/>
       </div>
       <div className="about-bottom-last">
-        <h1>A more of me</h1>
+        <h1>More of me</h1>
         <div className="img-list">
           {slides.map(slide => (<div key={slide.name}>
             <img src={slide.url} alt={slide.name}/>

@@ -11,6 +11,7 @@ const projectList = () => projects.map((project, idx) => {
       <div className="description">
         <h3>{project.title}</h3>
         <p className="introduction">{project.description}</p>
+        <p className="introduction">Built with: {project.tech}</p>
         <p className="time">{project.time}</p>
         <a href={project.left} target="_blank" rel="noopener noreferrer" className="project-btn"><div>Live Website</div></a>
         <a href={project.right} target="_blank" rel="noopener noreferrer" className="project-btn"><div>Github</div></a>
@@ -22,6 +23,7 @@ const projectList = () => projects.map((project, idx) => {
         <div className="description">
           <h3>{project.title}</h3>
           <p className="introduction">{project.description}</p>
+          <p className="introduction">Built with: {project.tech}</p>
           <p className="time">{project.time}</p>
           <a href={project.left} target="_blank" rel="noopener noreferrer" className="project-btn"><div>{project.title === "Yo Fun" ? "Video Demo" : "Live Website"}</div></a>
           <a href={project.right} target="_blank" rel="noopener noreferrer" className="project-btn"><div>Github</div></a>

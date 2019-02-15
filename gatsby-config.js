@@ -1,11 +1,19 @@
 module.exports = {
   siteMetadata: {
     title: `Linh`,
-    description: `In-progess portfolio`,
+    description: `Linh Huynh Portfolio`,
     author: `@linh4`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'www.linhhuynh.net',
+        protocol: "http",
+        hostname: "www.linhhuynh.net",
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
