@@ -6,12 +6,13 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: 'www.linhhuynh.net',
+        bucketName: 'linhhuynh.net',
         protocol: "http",
-        hostname: "www.linhhuynh.net",
+        hostname: "linhhuynh.net",
       },
     },
     {

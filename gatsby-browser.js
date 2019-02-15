@@ -5,3 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+import "./src/styles/homepage.css"
+import "./src/styles/about.css"
+import "./src/styles/intro.css"
+import "./src/styles/projects.css"
