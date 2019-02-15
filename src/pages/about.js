@@ -4,9 +4,8 @@ import map from '../images/mapvn.png'
 import ny2 from '../images/ny.png'
 import ca from '../images/ca.jpg'
 import pic from '../images/pic.jpg'
-import duke from '../images/duke.png'
-import food from '../images/food.png'
-import sing from '../images/sing.png'
+import slides from '../data/slides.json'
+import quotes from '../data/quotes.json'
 
 const About = () => (
   <>
@@ -42,29 +41,16 @@ const About = () => (
       <div className="about-bottom-last">
         <h1>A more of me</h1>
         <div className="img-list">
-          <div>
-            <img src={duke} alt="duke"/>
-            <p>When I am not coding or cooking, I am playing with my cat.</p>
-          </div>
-          <div>
-            <img src={food} alt="duke"/>
-            <p>My favorite food during the cold NYC winter is a nice oxtail stew, with my own a Vietnamese twist!</p>
-          </div>
-          <div>
-            <img src={sing} alt="duke"/>
-            <p>I have visited about a dozen countries and 24 states (and counting!). My favorite country is Singapore!</p>
-          </div>
+          {slides.map(slide => (<div key={slide.name}>
+            <img src={slide.url} alt={slide.name}/>
+            <p>{slide.title}</p>
+          </div>))}
         </div>
         <div className="about-bottom end">
           <h3>Just a bit more...</h3>
           <p>I am very social and I love listening to other people’s experiences, as well as sharing my own.  My favorite things to talk about are food, restaurants, traveling, and the latest in tech!</p>
           <h4>My favorites quotes are:</h4>
-          <blockquote>"It’s not a bug, it’s a feature." (Anonymous)</blockquote>
-          <blockquote>"Make it work first, make it pretty later." (Anonymous)</blockquote>
-          <blockquote>"Be yourself; everyone else is already taken." (Oscar Wilde)</blockquote>
-          <blockquote>"They did not know it was impossible, so they did it!" (Mark Twain)</blockquote>
-          <blockquote>"In order to understand recursion, one must first understand recursion." (Anonymous)</blockquote>
-          <blockquote>"A good programmer is someone who always looks both ways before crossing a one-way street." (Doug Linder)</blockquote>
+          {quotes.map(quote => <blockquote key={quote}>{quote}</blockquote>)}
         </div>
       </div>
     </Layout>
