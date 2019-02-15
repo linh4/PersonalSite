@@ -1,6 +1,8 @@
 import React from 'react';
 import chair from '../images/chair.png'
-import cv from '../images/Linh Huynh Resume.pdf'
+import contacts from '../data/contacts.json'
+
+const contactList = () => contacts.map(contact => (<div key={contact.name}><a href={contact.url} target="_blank" rel="noopener noreferrer">{contact.name}</a></div>))
 
 const Footer = () => {
   return (
@@ -20,10 +22,7 @@ const Footer = () => {
       <hr/>
       <div className="links">
         <div className="social-media">
-          <div><a href="https://www.linkedin.com/in/linh-huynh-nyc/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
-          <div><a href="https://github.com/linh4" target="_blank" rel="noopener noreferrer">Github</a></div>
-          <div><a href="https://medium.com/@linh_huynh_z" target="_blank" rel="noopener noreferrer">Medium</a></div>
-          <div><a href="mailto:linh44h@gmail.com">Email</a></div>
+          {contactList()}
         </div>
         <div className="built">
           © {new Date().getFullYear()}, Built With Love in NYC

@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Around You",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "time": "February 2019",
+    "left": "https://around-you1.herokuapp.com/",
+    "right": "https://github.com/linh4/around-you",
+    "bg": "https://github.com/linh4/PersonalSite/blob/master/src/images/around1.png?raw=true",
+    "main": "https://github.com/linh4/PersonalSite/blob/master/src/images/around2.png?raw=true"
+  },
+  {
+    "title": "Yo Fun",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "time": "January 2019",
+    "left": "https://youtu.be/L3JX8N0bkkE",
+    "right": "https://github.com/linh4/yo-fun",
+    "bg": "https://github.com/linh4/PersonalSite/blob/master/src/images/brooklyn.jpg?raw=true",
+    "main": "https://github.com/linh4/PersonalSite/blob/master/src/images/yo-fun.png?raw=true"
+  },
+  {
+    "title": "Split B",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "time": "November 2018",
+    "left": "https://split-b.herokuapp.com/",
+    "right": "https://github.com/linh4/split-b-front-end",
+    "bg": "https://github.com/linh4/PersonalSite/blob/master/src/images/split-b.png?raw=true",
+    "main": "https://github.com/linh4/PersonalSite/blob/master/src/images/split.png?raw=true"
+  },
+  {
+    "title": "Go Stamp!",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "time": "October 2018",
+    "left": "https://go-stamp-card-app.herokuapp.com/",
+    "right": "https://github.com/linh4/go-stamp-front-end",
+    "bg": "https://github.com/linh4/PersonalSite/blob/master/src/images/stamp-b.png?raw=true",
+    "main": "https://github.com/linh4/PersonalSite/blob/master/src/images/go-stamp.png?raw=true"
+  },
+  {
+    "title": "Tic Tap Tone",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam feli",
+    "time": "September 2018",
+    "left": "https://tic-tap-tone.herokuapp.com/",
+    "right": "https://github.com/linh4/tic-tap-tone-front-end",
+    "bg": "https://github.com/linh4/PersonalSite/blob/master/src/images/brooklyn.jpg?raw=true",
+    "main": "https://github.com/linh4/PersonalSite/blob/master/src/images/game.png?raw=true"
+  }
+]
