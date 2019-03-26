@@ -1,5 +1,15 @@
 [
   {
+    "title": "Nom Nom",
+    "description": "An app for finding local SF Food Trucks in specific location.",
+    "tech": "React, Redux, Google Maps API",
+    "time": "March 2019",
+    "left": "https://nom-nom-baa86.firebaseapp.com/",
+    "right": "https://github.com/linh4/nom-nom",
+    "bg": "https://github.com/linh4/nom-nom/raw/master/app-sm.png",
+    "main": "https://raw.githubusercontent.com/linh4/nom-nom/master/app-big.png"
+  },
+  {
     "title": "Around You",
     "description": "News app uses newsapi to retrieve the lastest news. Users can pick a category or source to read and browse the news. Around You is implemented via Mobile Responsive Design.",
     "tech": "React, Redux, Pure CSS, NewsAPI",
